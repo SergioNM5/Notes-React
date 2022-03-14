@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    background-color: paleturquoise;
+    height: 70px;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}

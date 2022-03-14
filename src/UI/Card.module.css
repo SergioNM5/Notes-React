@@ -1,0 +1,17 @@
+.card {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+@media(min-width: 600px) {
+    .card {
+        width: 50vw;
+    }
+}
